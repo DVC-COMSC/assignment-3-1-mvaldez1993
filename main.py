@@ -1,9 +1,6 @@
 
 
 
-
-
-
 import random  
 
 n1 = random.randint(0,100)
@@ -13,7 +10,7 @@ print (n1, n2, n3)
 
 if n1 < n2 and n1 <n3:
   print (f'{n1} is the smallest number')
-if n2 < n1 and n2 < n3:
+elif n2 < n1 and n2 < n3:
     print (f'{n2} is the smallest number')
 else:
-      print ('f{n3} is the smallest number')
+      print (f'{n3} is the smallest number')
